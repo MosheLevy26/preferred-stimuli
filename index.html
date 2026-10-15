@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Preferred Stimuli</title>
+<meta name="description" content="15 feature visualizations from ConvNeXt Medium, an image model. 8 literal ones and 7 abstract ones.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23efefee'/%3E%3Crect x='5' y='5' width='6' height='6' fill='%23d4231a'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top wrap">
+  <h1>Preferred Stimuli</h1>
+  <nav aria-label="Sections">
+    <a href="#literal">Literal</a>
+    <a href="#abstract">Abstract</a>
+  </nav>
+</header>
+
+<main>
+  <div class="intro wrap">
+    <p>These are feature visualizations from ConvNeXt Medium, an image model with 7,057,377 parameters. Each one starts as random noise. The pixels get adjusted until one neuron fires as hard as it can. The result shows what that neuron responds to. The model learned all of this on its own while it was trained to sort photos into 1,000 categories.</p>
+    <p>Goodfire’s microscope has one of these for each of the model’s 8,832 neurons. I picked 15. The first 8 are the most literal ones, where you can see the thing if you squint. The other 7 are the most abstract ones that still look clean. Click any of them to see the real photos that make its neuron fire the most.</p>
+  </div>
+
+  <section class="room room--literal" id="literal" aria-labelledby="literal-title">
+    <div class="wrap">
+      <div class="room-head">
+        <h2 id="literal-title">Literal</h2>
+        <p>These are from late in the model, where a lot of neurons respond to whole objects. All 8 see the whole image. 7 of them are from the last stage.</p>
+      </div>
+      <div class="hang">
+      <div class="wall">
+      <figure class="work work--l" id="monarch" style="--at: 2" data-side="start">
+        <button class="work-open" type="button" data-slug="monarch" aria-label="Open Monarch">
+          <img src="assets/works/monarch.webp" width="960" height="960" alt="" loading="lazy" decoding="async">
+        </button>
+        <figcaption class="label">
+          <span class="label-title">Monarch</span>
+          <span class="label-meta">Stage 3, block 2, neuron 295</span>
+          <span class="label-desc">14 of its top 16 photos are monarch butterflies.</span>
+          <span class="sr">An orange and black butterfly with veined wings, spread across a pale ground.</span>
+        </figcaption>
+      </figure>
+      <figure class="work work--m" id="goldfish" style="--at: 8" data-side="end">
+        <button class="work-open" type="button" data-slug="goldfish" aria-label="Open Goldfish">
+          <img src="assets/works/goldfish.webp" width="960" height="960" alt="" loading="lazy" decoding="async">
+        </button>
+        <figcaption class="label">
+          <span class="label-title">Goldfish</span>
+          <span class="label-meta">Stage 3, block 1, neuron 220</span>
+          <span class="label-desc">15 of its top 16 photos are goldfish. The other one is a clownfish.</span>
+          <span class="sr">An orange goldfish with a dark eye and long, trailing fins.</span>
+        </figcaption>
+      </figure>
+      </div>
+      <div class="wall">
+      <figure class="work work--m" id="orca" style="--at: 1" data-side="start">
+        <button class="work-open" type="button" data-slug="orca" aria-label="Open Orca">
+          <img src="assets/works/orca.webp" width="960" height="960" alt="" loading="lazy" decoding="async">
+        </button>
+        <figcaption class="label">
+          <span class="label-title">Orca</span>
+          <span class="label-meta">Stage 3, block 2, neuron 403</span>
+          <span class="label-desc">All 16 of its top photos are killer whales.</span>
+          <span class="sr">A black and white killer whale arching out of bright blue water.</span>
+        </figcaption>
+      </figure>
+      <figure class="work work--l" id="panda" style="--at: 5" data-side="end">
+        <button class="work-open" type="button" data-slug="panda" aria-label="Open Panda">
+          <img src="assets/works/panda.webp" width="960" height="960" alt="" loading="lazy" decoding="async">
+        </button>
+        <figcaption class="label">
+          <span class="label-title">Panda</span>
+          <span class="label-meta">Stage 3, block 2, neuron 576</span>
+          <span class="label-desc">All 16 of its top photos are giant pandas.</span>
+          <span class="sr">A giant panda, black ears and eye patches on white fur.</span>
+        </figcaption>
+      </figure>
+      <figure class="work work--s" id="treefrog" style="--at: 10" data-side="start">
+        <button class="work-open" type="button" data-slug="treefrog" aria-label="Open Treefrog">
+          <img src="assets/works/treefrog.webp" width="960" height="960" alt="" loading="lazy" decoding="async">
+        </button>
+        <figcaption class="label">
+          <span class="label-title">Treefrog</span>
+          <span class="label-meta">Stage 3, block 2, neuron 469</span>
+          <span class="label-desc">15 of its top 16 photos are tree frogs. The other one is a tailed frog.</span>
+          <span class="sr">A bright green tree frog, seen close up.</span>
+        </figcaption>
+      </figure>
+      </div>
+      <div class="wall">
+      <figure class="work work--s" id="artichoke" style="--at: 2" data-side="end">
+        <button class="work-open" type="button" data-slug="artichoke" aria-label="Open Artichoke">
+          <img src="assets/works/artichoke.webp" width="960" height="960" alt="" loading="lazy" decoding="async">
+        </button>
+        <figcaption class="label">
+          <span class="label-title">Artichoke</span>
+          <span class="label-meta">Stage 3, block 2, neuron 609</span>
+          <span class="label-desc">All 16 of its top photos are artichokes, a few of them in flower.</span>
+          <span class="sr">A green artichoke with tightly layered bracts, tinged purple at the top.</span>
+        </figcaption>
+      </figure>
+      <figure class="work work--l" id="stoplight" style="--at: 7" data-side="start">
+        <button class="work-open" type="button" data-slug="stoplight" aria-label="Open Stoplight">
+          <img src="assets/works/stoplight.webp" width="960" height="960" alt="" loading="lazy" decoding="async">
+        </button>
+        <figcaption class="label">
+          <span class="label-title">Stoplight</span>
+          <span class="label-meta">Stage 3, block 2, neuron 852</span>
+          <span class="label-desc">All 16 of its top photos are traffic lights.</span>
+          <span class="sr">A dark traffic light with a red lamp above a green one.</span>
+        </figcaption>
+      </figure>
+      </div>
+      <div class="wall">
+      <figure class="work work--m" id="flame" style="--at: 5" data-side="end">
+        <button class="work-open" type="button" data-slug="flame" aria-label="Open Flame">
+          <img src="assets/works/flame.webp" width="960" height="960" alt="" loading="lazy" decoding="async">
+        </button>
+        <figcaption class="label">
+          <span class="label-title">Flame</span>
+          <span class="label-meta">Stage 2, block 7, neuron 270</span>
+          <span class="label-desc">It fires on small flames. Most of its top photos are candles, lighters and torches.</span>
+          <span class="sr">A bright flame burning inside a brick niche.</span>
+        </figcaption>
+      </figure>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="room room--abstract" id="abstract" aria-labelledby="abstract-title">
+    <div class="wrap">
+      <div class="room-head">
+        <h2 id="abstract-title">Abstract</h2>
+        <p>These are from early in the model, where neurons mostly respond to color and pattern. 6 of the 7 are from stage 1, where each neuron sees a patch 128 pixels wide. The other one is from stage 2.</p>
+      </div>
+      <div class="hang">
+      <div class="wall">
+      <figure class="work work--m" id="vermilion" style="--at: 1" data-side="start">
+        <button class="work-open" type="button" data-slug="vermilion" aria-label="Open Vermilion">
+          <img src="assets/works/vermilion.webp" width="960" height="960" alt="" loading="lazy" decoding="async">
+        </button>
+        <figcaption class="label">
+          <span class="label-title">Vermilion</span>
+          <span class="label-meta">Stage 1, block 0, neuron 92</span>
+          <span class="label-desc">It fires on small red marks against gray or black, like an ambulance stripe or rose hips.</span>
+          <span class="sr">A small red square inside a blue-grey woven halo.</span>
+        </figcaption>
+      </figure>
+      <figure class="work work--l" id="lantern" style="--at: 7" data-side="end">
+        <button class="work-open" type="button" data-slug="lantern" aria-label="Open Lantern">
+          <img src="assets/works/lantern.webp" width="960" height="960" alt="" loading="lazy" decoding="async">
+        </button>
+        <figcaption class="label">
+          <span class="label-title">Lantern</span>
+          <span class="label-meta">Stage 2, block 0, neuron 161</span>
+          <span class="label-desc">It fires on light shapes surrounded by dark, like a computer screen in a dark room or a car mirror.</span>
+          <span class="sr">A dark blue lattice of arches around a warm, glowing center.</span>
+        </figcaption>
+      </figure>
+      </div>
+      <div class="wall">
+      <figure class="work work--l" id="nocturne" style="--at: 2" data-side="start">
+        <button class="work-open" type="button" data-slug="nocturne" aria-label="Open Nocturne">
+          <img src="assets/works/nocturne.webp" width="960" height="960" alt="" loading="lazy" decoding="async">
+        </button>
+        <figcaption class="label">
+          <span class="label-title">Nocturne</span>
+          <span class="label-meta">Stage 1, block 0, neuron 77</span>
+          <span class="label-desc">It fires on thin bright lines against black, like an LED strip or a gas burner.</span>
+          <span class="sr">Rippling gold lines over bands of deep blue.</span>
+        </figcaption>
+      </figure>
+      <figure class="work work--s" id="eclipse" style="--at: 9" data-side="end">
+        <button class="work-open" type="button" data-slug="eclipse" aria-label="Open Eclipse">
+          <img src="assets/works/eclipse.webp" width="960" height="960" alt="" loading="lazy" decoding="async">
+        </button>
+        <figcaption class="label">
+          <span class="label-title">Eclipse</span>
+          <span class="label-meta">Stage 1, block 0, neuron 90</span>
+          <span class="label-desc">It fires on orange light against black. 4 of its top 16 photos are jack-o’-lanterns.</span>
+          <span class="sr">An orange hexagonal glow around a dark center.</span>
+        </figcaption>
+      </figure>
+      </div>
+      <div class="wall">
+      <figure class="work work--m" id="argyle" style="--at: 1" data-side="start">
+        <button class="work-open" type="button" data-slug="argyle" aria-label="Open Argyle">
+          <img src="assets/works/argyle.webp" width="960" height="960" alt="" loading="lazy" decoding="async">
+        </button>
+        <figcaption class="label">
+          <span class="label-title">Argyle</span>
+          <span class="label-meta">Stage 1, block 0, neuron 153</span>
+          <span class="label-desc">It fires on red broken up by white, like pomegranate seeds or a foxhound’s face.</span>
+          <span class="sr">A crosshatched lattice of red and white diamonds.</span>
+        </figcaption>
+      </figure>
+      <figure class="work work--s" id="lozenge" style="--at: 6" data-side="end">
+        <button class="work-open" type="button" data-slug="lozenge" aria-label="Open Lozenge">
+          <img src="assets/works/lozenge.webp" width="960" height="960" alt="" loading="lazy" decoding="async">
+        </button>
+        <figcaption class="label">
+          <span class="label-title">Lozenge</span>
+          <span class="label-meta">Stage 1, block 0, neuron 185</span>
+          <span class="label-desc">It fires on bumpy dark greens, like custard apple skin and cabbage.</span>
+          <span class="sr">Concentric olive-green diamonds around a black center.</span>
+        </figcaption>
+      </figure>
+      <figure class="work work--m" id="moire" style="--at: 9" data-side="start">
+        <button class="work-open" type="button" data-slug="moire" aria-label="Open Moiré">
+          <img src="assets/works/moire.webp" width="960" height="960" alt="" loading="lazy" decoding="async">
+        </button>
+        <figcaption class="label">
+          <span class="label-title">Moiré</span>
+          <span class="label-meta">Stage 1, block 0, neuron 209</span>
+          <span class="label-desc">It fires on fine grids and stripes, like solar panels and roof trusses.</span>
+          <span class="sr">Violet and cream diagonal waves, like rippled silk.</span>
+        </figcaption>
+      </figure>
+      </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot wrap">
+  <p>The images and photos are from <a href="https://already-clean.goodfire.com/microscope/medium.html">Goodfire’s microscope for ConvNeXt Medium</a>, which is part of <a href="https://already-clean.goodfire.com/">Neural Networks Are Already Clean</a> by Nick Cammarata. The photos come from the ImageNet validation set (50,000 images).</p>
+  <p>Goodfire made the images with an FFT image parameterization, blur annealing and augmentation, using the model’s epoch 90 checkpoint (72.0% top-1).</p>
+</footer>
+
+<dialog class="viewer" id="viewer" aria-labelledby="v-title">
+  <div class="v-inner wrap">
+    <div class="v-top">
+      <p class="v-where" id="v-where"></p>
+      <button class="v-close" type="button" id="v-close">Close</button>
+    </div>
+    <div class="v-body">
+      <div class="v-art"><img id="v-img" src="" alt="" width="960" height="960"></div>
+      <div class="v-text">
+        <h2 id="v-title"></h2>
+        <p class="v-meta" id="v-neuron"></p>
+        <p class="v-meta" id="v-sees"></p>
+        <p class="v-desc" id="v-desc"></p>
+        <h3 class="photos-title">Top photos</h3>
+        <p class="photos-note">These are the 8 photos (out of 50,000) that make this neuron fire the most, cropped around the spot where it fires. The captions are ImageNet’s labels for the whole photo, so they don’t always match the crop.</p>
+        <ol class="photos" id="v-photos"></ol>
+        <a class="v-src" id="v-src" href="https://already-clean.goodfire.com/microscope/medium.html">Open in Goodfire’s microscope</a>
+      </div>
+    </div>
+    <div class="v-nav">
+      <button type="button" class="v-step" id="v-prev"></button>
+      <button type="button" class="v-step v-step--next" id="v-next"></button>
+    </div>
+  </div>
+</dialog>
+
+<script src="assets/works.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
